@@ -97,6 +97,19 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  margin: 0;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap
+}
+
+
 
 /* ==========================================================================
    Helper classes
@@ -263,4 +276,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
