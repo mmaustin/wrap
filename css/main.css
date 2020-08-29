@@ -98,8 +98,57 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body, header {
+  height: 800px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: column;
+}
 
+header {
+  height: 300px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
 
+.header-content {
+  border: 1px solid blue;
+  margin: 0;
+  height: inherit;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+}
+
+.banner, nav {
+  margin: 0;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+}
+
+.divider {
+  margin: 0;
+  height: 1px;
+  width: 100%;
+  background-color: pink;
+}
+
+nav {
+  border: 1px solid green;
+}
+
+ul{
+  margin: 0;
+}
 
 /* ==========================================================================
    Helper classes
